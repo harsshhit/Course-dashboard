@@ -17,7 +17,7 @@ export function QuestionAnalysis({ correct, total }: QuestionAnalysisProps) {
     <div className="bg-white rounded-lg shadow-sm p-6">
       <h2 className="text-lg font-semibold text-gray-900 mb-2">Question Analysis</h2>
       <p className="text-sm text-gray-600 mb-6">
-        You scored {correct} question correct out of {total}. However it still needs some improvements
+       <p className=" font-extrabold"> You scored {correct} question correct out of {total}.</p> However it still needs some improvements
       </p>
       
       <div className="relative w-[300px] h-[300px] mx-auto">
